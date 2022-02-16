@@ -1,0 +1,212 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'social';
+    src: url('fontes/Social_Shapes.ttf') format('truetype');
+}@font-face {
+        font-family: 'space';
+        src: url('fontes/unispace\ bd.ttf') format('truetype');
+}@font-face {
+    font-family: 'modern';
+    src: url('fontes/ModernSans-Light.otf') format('opentype');
+}.foguete{
+    animation: fo 10s infinite;
+    width: 120px;
+    height: 50px;
+    color: whitesmoke;
+    background-size: contain;
+    position:absolute;
+    top: 27%;
+    width:rem(120);
+}@keyframes fo {
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(calc(100vw - 50px));
+    }
+}
+*{
+    margin:0px;
+    padding:0px;
+    border:0px;
+    
+}
+body{
+    background-color:black;
+    font: normal bold 1.15em arial sans-serif;
+ 
+}p{
+    color: black;
+    font-family: 'modern';
+}.sombra{
+    text-shadow: 1px 2px 1px white; 
+}.fonte{
+  font-family: 'space';
+  
+}.title{
+    text-shadow: 2px 1px 2px black;
+    text-align:center;
+}img{
+    width: 180px;
+    height: 135px;
+    border-radius: 5px;
+    margin-right: 20px;
+
+
+}header{
+       /* background-color:aqua;*/
+       background-image: url('images/ceuGrande.jpg');
+        font-size: 1.5em;
+        margin: 0px  ;
+        margin-bottom:20px;
+        color:white;
+        padding:50px;
+       
+        border:5px; 
+        height:130px;
+}header>p{
+    color: azure;
+    text-align: center;
+    font-size: 1em;
+    padding:5px;
+    margin-bottom: 80px;
+}span>p{
+        padding:15px;
+}span.icone::after{
+    content:'🔗' ;
+} nav{
+    word-spacing: 100px;
+    text-align: center;
+    padding:30px;
+    
+}nav > a{
+    margin-right: 50px;
+    text-align: center;
+    color: white;
+    text-decoration:none;
+    border-radius: 5px;
+    padding: 15px;
+    font-size:1.1em;
+    transition-duration: 2s;
+
+}nav a:hover{
+   background-color: grey;
+   padding: auto;
+}
+div.video{
+    background-color:black;
+    margin:0px 5px 0px 5px;
+    margin-bottom:60px;
+    border-radius: 4px;
+    padding-bottom: 25%;
+    position: relative;
+}div.video>iframe{
+    position: absolute;
+    top:5%;
+    left:1%;
+    width: 98%;
+    height: 90%;
+}main{
+    background-color:lightsteelblue;
+        height:auto;
+        padding:10px ;
+        border:auto;
+        border-top-right-radius: 5px;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        margin:4px; 
+        margin:auto;
+        margin-bottom: 20px;
+        
+        padding:25px;
+        min-width:280px;
+        max-width: 1250px;
+}article{
+    min-width:280px;
+    max-width: 1300px;
+    width:auto;
+    height:auto;
+    background-color: lightslategray;
+    box-shadow: 5px 3px 7px rgba(0, 0, 0, 0.609);
+    text-align:auto;
+    border-radius: 5px;
+    padding: 10px 10px;
+    margin-bottom:15px;
+  
+}article:hover{
+   background-color: whitesmoke;
+}article.h2:hover{
+    background-color:rgba(0, 255, 255, 0.589);
+}span{ 
+   
+   text-align:unset; 
+   font-size: 1.1em;
+   padding: 5px;
+}h2{
+    color:black;
+    margin-bottom: 10px;
+   
+}
+.subtitulo{
+    text-align:left;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-items: self-end;
+
+ 
+}article{
+   color: aquamarine;
+  
+}footer{
+    background-color: white;
+    text-align: center;
+    padding: 30px;
+    margin: 0px;
+    font-size: 1.2em ;
+}span.social{
+    font-family: 'social';
+}.picture>img{
+   margin-top: 35px;
+    width: 10px;
+    height: 10px;
+    align-items: center;
+}
+
+.picture{
+ margin-right: 50px;
+ text-align: center;
+}.icone{
+    width: 40px;
+    height: 40px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}a:hover{
+    background-color: aquamarine;
+    border-radius: 4px;
+
+}.picture>a{
+    width: 40px;
+    height: 40px;
+    margin-right: 50px;
+    text-align: center;
+    color: white;
+    text-decoration:none;
+    border-radius: 5px;
+    padding: 15px;
+    font-size:1.1em;
+    transition-duration: 2s
+}.picture{
+    
+    text-align: center;
+    padding:30px;
+}ins{
+  text-decoration: none;
+  margin: auto;
+ font-family: 'space';
+  color:lightsteelblue;
+  text-shadow: 1px 1px black;
+  word-spacing: 3px;
+}
